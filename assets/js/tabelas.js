@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    $("#viagens").on("click",function(){
+        $("#formulario").attr("src","https://docs.google.com/forms/d/e/1FAIpQLSfT12hvR3wCLC5-nqFE6Qa2BwRhaIfm2i3S2fDFH9hO-NuO9Q/viewform?embedded=true")
+        $("#tabela").attr("src","https://docs.google.com/spreadsheets/d/e/2PACX-1vT5OYAbGmzd6m166cSpHLGENNvsHIF2LgNs6HPEKVSi3otPcZP_HeRse1303xn3KBNjg2ts7JcStujj/pubhtml?gid=967939175&single=true")
+    })
+    $("#compromissos").on("click",function(){
+        $("#formulario").attr("src","https://docs.google.com/forms/d/e/1FAIpQLScs4EkxrYvhXM2G1KPIbAtMrBPNNB106Y7KxAqvWEtSRcOQFQ/viewform?embedded=true")
+        $("#tabela").attr("src","https://docs.google.com/spreadsheets/d/e/2PACX-1vT5OYAbGmzd6m166cSpHLGENNvsHIF2LgNs6HPEKVSi3otPcZP_HeRse1303xn3KBNjg2ts7JcStujj/pubhtml?gid=1242834810&single=true")
+    })
+})
